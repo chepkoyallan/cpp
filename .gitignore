@@ -2,3 +2,4 @@ bazel-bin
 bazel-cpp
 bazel-out
 bazel-testlogs
+.idea
