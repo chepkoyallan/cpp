@@ -38,3 +38,6 @@ run-project:
 
 run-world:
 	bazel run //main:world
+
+run-output:
+	bazel run //main:output

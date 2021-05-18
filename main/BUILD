@@ -19,3 +19,8 @@ cc_binary(
     name = "world",
     srcs = ["world.c"],
 )
+
+cc_binary(
+    name = "output",
+    srcs = ["output.cc"],
+)
