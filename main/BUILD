@@ -7,6 +7,15 @@ cc_library(
 )
 
 cc_binary(
+    name = "human",
+    srcs = ["human.cc"],
+    deps = [
+        "//person:person",
+    ],
+)
+
+
+cc_binary(
     name = "hello-world",
     srcs = ["hello-world.cc"],
     deps = [
@@ -23,4 +32,9 @@ cc_binary(
 cc_binary(
     name = "output",
     srcs = ["output.cc"],
+)
+
+cc_binary(
+    name = "make-person",
+    srcs = ["human.cc"],
 )

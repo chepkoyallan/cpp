@@ -41,3 +41,6 @@ run-world:
 
 run-output:
 	bazel run //main:output
+
+make-person:
+	bazel run //main:human
